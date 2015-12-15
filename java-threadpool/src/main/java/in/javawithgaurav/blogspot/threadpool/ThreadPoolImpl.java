@@ -42,7 +42,9 @@ public class ThreadPoolImpl implements ThreadPool {
 
 	@Override
 	public void shutDown() {
-
+		for (Worker w : this.workers) {
+			w.setState(WorkerState.STOP);
+		}
 	}
 	
 	enum WorkerState {
