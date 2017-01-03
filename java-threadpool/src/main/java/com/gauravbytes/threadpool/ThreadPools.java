@@ -1,4 +1,4 @@
-package in.javawithgaurav.blogspot.threadpool;
+package com.gauravbytes.threadpool;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

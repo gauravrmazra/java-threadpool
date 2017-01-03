@@ -1,4 +1,4 @@
-package in.javawithgaurav.blogspot.threadpool;
+package com.gauravbytes.threadpool;
 
 /**
  * 
